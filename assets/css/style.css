@@ -1,0 +1,48 @@
+/* optional-purchase-style.css */
+
+.optional-purchase-section {
+    margin-bottom: 55px; 
+    /* border: 1px solid #060163; */
+    padding: 10px;
+}
+
+.optional-purchase-content {
+    display: flex;
+    align-items: center;
+}
+
+.optional-purchase-checkbox {
+    margin-right: 10px;
+}
+
+.additional-price {
+    color: #888;
+    font-size: 0.9em;
+}
+
+#optional-purchase-input-container {
+    display: none;
+}
+
+#optional-purchase-input-container input[type="text"],
+#optional-purchase-input-container input[type="number"] {
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.optional-purchase-label {
+    margin-left: 10px;
+}
+
+.custom-checkbox {  
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
